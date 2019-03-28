@@ -15,6 +15,7 @@ function input(x){
             break;
         case "del":
             screen.value = screen.value.slice(0,-1)
+            result = false
             break;
         default:{
             if ((result) && !(isNaN(x.value))){
