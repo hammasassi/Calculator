@@ -23,7 +23,7 @@ function input(x){
             else
                 screen.value += x.value;
             result = false
-        }
+            }
 
     }  
 }
