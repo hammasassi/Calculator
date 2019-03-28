@@ -3,7 +3,11 @@ var result = false
 function input(x){
     switch (x.value) {
         case "=":
-            screen.value = eval(screen.value)
+            if(screen.value){
+                screen.value = eval(screen.value)
+            }   
+            else 
+                screen.value =0;
             result=true;
             break;
         case "AC":
