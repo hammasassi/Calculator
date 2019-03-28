@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.calculator{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.7);
+    width: 400px;
+    margin: 0;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+#screen{
+    font-size: 40px;
+    padding: 0 30px ; 
+    width: 85%;
+    background-color:rgb(98, 120, 150);
+    border: none;
+    color: white;
+    height: 90px;
+}
+
+.buttons{
+    font-size: 0;
+}
+
+.btn{
+    outline: none;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    font-size: 25px;
+}
+
+
+#btn0{
+    width: 200px;
+}
+
+
+.operator{
+    background-color: rgb(238, 195, 116)
+}
